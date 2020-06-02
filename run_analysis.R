@@ -109,7 +109,7 @@ averages_df <- summarise_all(by_subject_act, mean)
 averages_df
 
 ## Save the table of averages to a file
-write.table(averages_df, file="./UCI HAR Dataset/summary_data.txt")
+write.table(averages_df, file="./UCI HAR Dataset/summary_data.txt", row.names=FALSE)
 
 ## To read the summary data use
 ## data <- read.table("./UCI HAR Dataset/summary_data.txt", header=TRUE)
