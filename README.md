@@ -11,4 +11,4 @@ The script does the following:
 5 - groups the subset by subject and activity, and calculates an average for the selected variables, and  
 6 - writes the averaged subset to a new file called 'summary_data.txt'.  
 
-Note: In R, read in 'summary_data.txt' using read.table()
+Note: In R, read in 'summary_data.txt' using read.table() with header=TRUE
